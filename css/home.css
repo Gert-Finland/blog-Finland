@@ -49,13 +49,13 @@ body, html {
 }
 
 .blogImage {
-  max-width: 60%;
+  max-width: 70%;
   height: auto;
   width: auto\9;
 }
 
 .blogTwoImage{
-  max-width: 40%;
+  max-width: 45%;
   height: auto;
   width: auto\9;
 }
@@ -104,9 +104,12 @@ body, html {
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
+  }
+  .photoGert{
+    width: 30%;
   }
 }
