@@ -60,6 +60,12 @@ body, html {
   width: auto\9;
 }
 
+.blogFiveImage{
+  max-width: 35%;
+  height: auto;
+  width: auto\9;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
