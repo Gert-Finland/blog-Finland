@@ -9,7 +9,8 @@ body {
   background: #f1f1f1;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +22,8 @@ body, html {
   font-size: 40px;
   text-align: center;
   background: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/headerPhoto.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/headerPhoto2.jpg"); */
+  background-image: url("../img/headerPhoto2.jpg");
 
   /* Hight */
   height: 40%;
@@ -64,6 +66,11 @@ body, html {
   max-width: 35%;
   height: auto;
   width: auto\9;
+}
+
+video {
+  width: 35%;
+  height: auto;
 }
 
 #moreImg {
@@ -127,18 +134,45 @@ body, html {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1200px) {
-  .leftcolumn, .rightcolumn {
+
+  .header {
+    height: 30%;
+  }
+
+  .centeredText {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
 
   .photoGert {
-    width: 30%;
+    width: 50%;
   }
 
-  #imgBtn{
-    width: 250px;
-    height: 100px;
-    font-size: 40px;
+  #imgBtn {
+    width: 240px;
+    height: 90px;
+    font-size: 33px;
+  }
+
+  .blogFiveImage {
+    max-width: 45%;
+    height: auto;
+    width: auto\9;
+  }
+
+  video {
+    width: 45%;
+    height: auto;
+  }
+
+  #mobile{
+    font-size: 24px;
   }
 }
