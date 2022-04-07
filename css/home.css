@@ -23,7 +23,7 @@ html {
   text-align: center;
   background: white;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/headerPhoto2.jpg"); */
-  background-image: url("../img/headerPhoto2.jpg");
+  background-image: url("../img/HeaderPhoto2.jpg");
 
   /* Hight */
   height: 40%;
@@ -73,16 +73,17 @@ video {
   height: auto;
 }
 
-#moreImg {
+#moreImg, #moreImg2 {
   display: none;
 }
 
-#imgBtn {
+#imgBtn, #imgBtn2 {
   background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
   transition-duration: 0.4s;
   margin: 20px;
+  border-radius: 15%;
 }
 
 #imgBtn:hover {
