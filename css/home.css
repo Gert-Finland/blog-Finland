@@ -23,7 +23,7 @@ html {
   text-align: center;
   background: white;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/headerPhoto2.jpg"); */
-  background-image: url("../img/HeaderPhoto2.jpg");
+  background-image: url("../img/HeaderPhoto2.JPG");
 
   /* Hight */
   height: 40%;
@@ -156,7 +156,7 @@ video {
     width: 50%;
   }
 
-  #imgBtn {
+  #imgBtn, #imgBtn2 {
     width: 240px;
     height: 90px;
     font-size: 33px;
