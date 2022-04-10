@@ -22,8 +22,7 @@ html {
   font-size: 40px;
   text-align: center;
   background: white;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/headerPhoto2.jpg"); */
-  background-image: url("../img/HeaderPhoto2.JPG");
+  background-image: url("../img/HeaderPhoto2.jpg");
 
   /* Hight */
   height: 40%;
@@ -133,11 +132,59 @@ video {
   margin-top: 10px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1200px) {
+/* Responsive layout - when the screen is less than 1000px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+
+  .header {
+    height: 40%;
+    font-size: 30px;
+  }
+
+  .centeredText {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .photoGert {
+    width: 50%;
+  }
+
+  #imgBtn, #imgBtn2 {
+    width: 11vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+
+  .blogFiveImage {
+    max-width: 45%;
+    height: auto;
+    width: auto\9;
+  }
+
+  video {
+    width: 45%;
+    height: auto;
+  }
+
+  #mobile{
+    font-size: 16px;
+  }
+}
+
+
+/* Responsive layout - when the screen is less than 679px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 679px) {
 
   .header {
     height: 30%;
+    font-size: 3vw;
   }
 
   .centeredText {
@@ -157,9 +204,9 @@ video {
   }
 
   #imgBtn, #imgBtn2 {
-    width: 240px;
-    height: 90px;
-    font-size: 33px;
+    width: 16vw;
+    height: 6vw;
+    font-size: 2vw;
   }
 
   .blogFiveImage {
@@ -174,6 +221,6 @@ video {
   }
 
   #mobile{
-    font-size: 24px;
+    font-size: 4vw;
   }
 }
