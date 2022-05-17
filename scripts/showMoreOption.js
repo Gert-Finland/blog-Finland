@@ -29,3 +29,19 @@ function ShowMoreImages2() {
         moreImg2.style.display = "inline";
     }
 }
+
+function ShowMoreImages3() {
+    var divider3 = document.getElementById("divider3");
+    var moreImg3 = document.getElementById("moreImg3");
+    var btnText3 = document.getElementById("imgBtn3");
+
+    if (divider3.style.display === "none") {
+        divider3.style.display = "inline";
+        btnText3.innerHTML = "Toon meer";
+        moreImg3.style.display = "none";
+    } else {
+        divider3.style.display = "none";
+        btnText3.innerHTML = "Toon minder";
+        moreImg3.style.display = "inline";
+    }
+}
