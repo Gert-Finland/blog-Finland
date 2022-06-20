@@ -45,3 +45,19 @@ function ShowMoreImages3() {
         moreImg3.style.display = "inline";
     }
 }
+
+function ShowMoreImages4() {
+    var divider4 = document.getElementById("divider4");
+    var moreImg4 = document.getElementById("moreImg4");
+    var btnText4 = document.getElementById("imgBtn4");
+
+    if (divider4.style.display === "none") {
+        divider4.style.display = "inline";
+        btnText4.innerHTML = "Toon meer";
+        moreImg4.style.display = "none";
+    } else {
+        divider4.style.display = "none";
+        btnText4.innerHTML = "Toon minder";
+        moreImg4.style.display = "inline";
+    }
+}
